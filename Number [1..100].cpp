@@ -4,14 +4,14 @@ int main()
 {
 	setlocale(LC_ALL, "");
 	int a;
-	int	k, g; 
+	int k, F; 
 	int i;
 	k = 0;
-	g = 0;
+	F = 0;
 	srand(time(NULL));
 	a = rand() % 100 + 1;
 	cout << ("Угадай число из диапазано от 1 до 100 за 7 попыток.\n");
-	while ((k < 7) && (g < 1))
+	while ((k < 7) && (F < 1))
 	{
 		cout << ("введите число:\n");
 		cin >> i;
@@ -32,7 +32,7 @@ int main()
 				if (i = a)
 				{
 					cout << "Число введено верно: " << a; 
-					g = g + 1;
+					F = F + 1;
 				}
 			}
 		}
