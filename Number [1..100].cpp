@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "Russian");
 	int a;
 	int k, F; 
 	int i;
