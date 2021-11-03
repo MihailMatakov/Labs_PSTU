@@ -2,11 +2,14 @@
 using namespace std;
 int main()
 {
-    setlocale(LC_ALL, "Russian");
-    int a, s, d, f, g;
-    cout << "Введите символы \n";
-    сin >> a >> s >> d >> f >> g;
-    cout << "Результат \n";
-    cin >> g >> f >> d >> s >> a;
+        // Локализация программы
+	setlocale(LC_ALL, "Russian");
+	// Целочисленые переменные
+	int a, b;
+	cout << "Введите числа \n";
+	cin >> a >> b;
+	cout << "Результат:";
+	//выводим произведение двух чисел
+	cout << a * b;
 	return 0;
 }
